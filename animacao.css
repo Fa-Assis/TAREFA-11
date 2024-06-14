@@ -4,16 +4,13 @@
     width: 300px;
     height: 150px;
     animation: heartbeat 2s infinite alternate;
+    transform-origin: center;
 }
 
 @keyframes heartbeat{
-  0%
+  to
   {
-    transform: scale( .75 );
-  }
-  100%
-  {
-    transform: scale( 1.1 );
+    transform: scale( 1.2 );
   }
 }
 
