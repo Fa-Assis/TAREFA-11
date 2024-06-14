@@ -1,0 +1,40 @@
+.core {
+    margin-left:31%;
+    padding: 50px 150px;
+    width: 300px;
+    height: 150px;
+    animation: heartbeat 2s infinite alternate;
+}
+
+@keyframes heartbeat{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( 1.1 );
+  }
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #bc64ef;
+}
+
+h1 {
+    margin-left: 40%;
+    padding: 20px;
+    color: blue;
+    font-size:80px;
+}
+
+h2 {
+    margin-left: 41%;
+    padding: 30px;
+    color: mediumturquoise;
+    font-size: 50px;
+}
+
